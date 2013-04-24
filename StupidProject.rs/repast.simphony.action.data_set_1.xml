@@ -1,0 +1,28 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Bug Size</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>StupidProject.Bug</sourceType>
+  <inclTick>false</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+  </scheduleParams>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Size</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Size</id>
+        <className>StupidProject.Bug</className>
+        <methodName>getSize</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

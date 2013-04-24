@@ -1,0 +1,13 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Bug Stats Output</name>
+  <dataSet>Bug Size Stats</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>minSize</string>
+    <string>meanSize</string>
+    <string>maxSize</string>
+  </sourceIds>
+  <fileName>BugStats.csv</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
